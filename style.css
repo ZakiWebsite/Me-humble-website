@@ -12,16 +12,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.hero{
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(./images/other-images/dz.png);
+.hero-image{
+    background-color: rgb(36, 172, 36);
     background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    height: 20vh;
     color: #fff;
 }
 
@@ -34,6 +28,8 @@ h1 {
 .timebox {
     display: flex;
     gap: 90px;
+    justify-content: center;
+
 }
 
 .time {
