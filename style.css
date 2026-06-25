@@ -12,6 +12,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 50%;
+    height: auto;
+    border: 5px solid #000000;
+}
 .hero-image{
     background-color: rgb(36, 172, 36);
     background-size: cover;
@@ -39,4 +44,10 @@ h1 {
 .time h2 {
     font-size: 5rem;
     font-weight: 100;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
