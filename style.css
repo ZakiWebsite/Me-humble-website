@@ -13,10 +13,12 @@ body {
 }
 
 img {
-    width: 50%;
     height: auto;
     border: 5px solid #000000;
+    margin-top: 30px;
 }
+
+
 .hero-image{
     background-color: rgb(36, 172, 36);
     background-size: cover;
@@ -27,7 +29,7 @@ img {
 h1 {
     font-size: 4rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin: 30px;
 }
 
 .timebox {
@@ -50,4 +52,13 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 75px;
 }
+
+.top-goalscorers {
+    background-color: rgb(36, 172, 36);
+    color: whitesmoke
+}
+
