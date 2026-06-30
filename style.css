@@ -62,3 +62,78 @@ h1 {
     color: whitesmoke
 }
 
+.algeria-scorers-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.scorers-title {
+  color: #006233;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+/* Grid layout for the cards */
+.scorers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  min-height: 150px;
+}
+
+/* Individual card styling */
+.scorer-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 25px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.scorer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* Typography inside the cards */
+.scorer-rank {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d21034;
+  margin-bottom: 10px;
+}
+
+.scorer-name {
+  font-size: 20px;
+  color: #333333;
+  margin: 10px 0;
+}
+
+.scorer-goals {
+  font-size: 18px;
+  font-weight: 600;
+  color: #006233;
+  margin: 0;
+}
+
+.loading-state {
+  font-size: 16px;
+  color: #666;
+  margin-top: 40px;
+  font-style: italic;
+}
+
+/* Responsive adjustment */
+@media (max-width: 600px) {
+  .scorer-card {
+    width: 100%;
+  }
+}
