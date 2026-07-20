@@ -9,10 +9,10 @@ function timer () {
     const currentDate = new Date().getTime();
     const distance = targetDate - currentDate;
 
-    const days = Math.floor(distance / 1000 / 60 /60 / 24)
-    const hours = Math.floor(distance / 1000 / 60 / 60) % 24;
-    const minutes = Math.floor(distance / 1000 / 60) % 60;
-    const seconds = Math.floor(distance / 1000) % 60;
+    const days =  Math.abs(Math.floor(distance / 1000 / 60 /60 / 24));
+    const hours = Math.abs(Math.floor(distance / 1000 / 60 / 60) % 24);
+    const minutes = Math.abs(Math.floor(distance / 1000 / 60) % 60);
+    const seconds = Math.abs(Math.floor(distance / 1000) % 60);
 
     console.log(days + ':' + hours + ':' + minutes + ':' + seconds);
 
@@ -21,13 +21,7 @@ function timer () {
     Minutes.innerHTML = minutes;
     Seconds.innerHTML = seconds;
 
-    if(distance < 0) {
-        clearInterval(timer);
-        Days.innerHTML = "00";
-        Hours.innerHTML = "00";
-        Minutes.innerHTML = "00";
-        Seconds.innerHTML = "00";
-    }
+
 }
 
 setInterval(timer, 1000);

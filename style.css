@@ -1,4 +1,11 @@
 @import url('https://googleapis.com');
+/* code to get algerian font */
+@font-face {
+  font-family: 'MyAlgerianFont';
+  src:  url('fonts/Algerian Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
     text-align: center;
@@ -13,9 +20,14 @@ body {
 }
 
 img {
-    height: auto;
-    border: 5px solid #000000;
+    border: 5px solid #1a9b00;
     margin-top: 30px;
+}
+
+.span img {
+  align-items: center;
+  height: auto;
+  width: 200%;
 }
 
 
@@ -29,7 +41,9 @@ img {
 h1 {
     font-size: 4rem;
     font-weight: 500;
-    margin: 30px;
+    margin: 50px;
+    font-family: 'MyAlgerianFont', 'Impact', sans-serif;
+    border:10px #1a9b00
 }
 
 .timebox {
@@ -48,78 +62,28 @@ h1 {
     font-weight: 100;
 }
 
+.player-numbers {
+    
+}
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
     justify-content: center;
-    margin: 75px;
+    margin: 40px;
 }
 
-.top-goalscorers {
-    background-color: rgb(36, 172, 36);
-    color: whitesmoke
+.three-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }
 
-.algeria-scorers-container {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-radius: 12px;
-}
-
-.scorers-title {
-  color: #006233;
-  margin-bottom: 30px;
-  font-size: 24px;
-}
-
-/* Grid layout for the cards */
-.scorers-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  min-height: 150px;
-}
-
-/* Individual card styling */
-.scorer-card {
-  background: #ffffff;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 25px;
-  width: 200px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.scorer-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-}
-
-/* Typography inside the cards */
-.scorer-rank {
-  font-size: 14px;
-  font-weight: bold;
-  color: #d21034;
-  margin-bottom: 10px;
-}
-
-.scorer-name {
+.info {
   font-size: 20px;
-  color: #333333;
-  margin: 10px 0;
-}
-
-.scorer-goals {
-  font-size: 18px;
-  font-weight: 600;
-  color: #006233;
-  margin: 0;
+  line-height: 25px;
 }
