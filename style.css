@@ -77,6 +77,11 @@ h1 {
     border:10px #1a9b00
 }
 
+span h1 {
+    margin: 0px;
+    font-size: 100px;
+}
+
 .timebox {
     display: flex;
     gap: 60px;
@@ -123,8 +128,18 @@ h1 {
     margin: 40px;
 }
 
+.news {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+
 .title {
-    color:#d60000 !important;
+    color: white !important;
     -webkit-text-stroke: 1px green !important;
     margin-top: 10px;
 }
