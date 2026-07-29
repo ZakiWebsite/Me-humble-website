@@ -89,11 +89,11 @@ span h2 {
 h1 {
     font-size: 4rem;
     font-weight: 500;
-    margin: 30px;
+    margin: 25px;
     font-family: 'Bebas Neue', sans-serif;
     border: 10px #1a9b00;
     letter-spacing: 2px;
-    font-size: 80px;
+    font-size: 75px;
 }
 
 span h1 {
@@ -136,6 +136,8 @@ span h1 {
     font-size: 5rem;
     font-weight: 100;
 }
+
+
 
 
 .two-column {
@@ -241,8 +243,9 @@ span h1 {
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-
+    width: 100%;
     /* The Hexagon Wallpaper */
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 31.5L0 20L20 8.5L40 20L20 31.5zm0-2L36 20L20 10.5L4 20L20 29.5z' fill='%231a9b00' fill-opacity='0.08' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
+
