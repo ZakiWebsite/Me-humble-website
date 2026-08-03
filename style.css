@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap');
-/* code to get algerian font */
+/* code to get algerian font (unused) */
 @font-face {
   font-family: 'MyAlgerianFont';
   src:  url('fonts/Algerian Regular.ttf') format('truetype');
@@ -7,12 +7,14 @@
   font-style: normal;
 }
 
+/* applies to all text inside the body tags (basically the whole website) */
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     overflow-x:hidden;
 }
 
+/* handles the algeria flag */
 .flag-inline{
     display:inline-block;
     width:90px;
@@ -23,6 +25,7 @@ body {
     border: 5px solid #0f5a00;
 }
 
+/* applies to all text */
 * {
     padding: 0;
     margin: 0;
@@ -30,6 +33,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* applies to all images */
 img {
     max-width: 100%;
     height: auto;
@@ -38,22 +42,26 @@ img {
     border: 5px solid #1a9b00;
 }
 
+/* applies to the images in the span tag (the player photos) */
 .span img {
   align-items: center;
   height: auto;
   width: 200%;
 }
 
+/* background for next match section */
 .next-match-background{
     background-color: #0f5a00;
     height: 10vh;
 }
+
+/* applies to text in the top goalscorers section */
 .top-goalscorers-text {
     font-size: 75px;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
 }
-
+/* just a way to reduce the gap between the next match text and timer */
 .next-match {
     margin: -50px;
 }

@@ -1,3 +1,4 @@
+// I dont understand this i just followed a tutorial but i had to change it to days since. 
 const Days = document.getElementById('days');
 const Hours = document.getElementById('hours');
 const Minutes = document.getElementById('minutes');
