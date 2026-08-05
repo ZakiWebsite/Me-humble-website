@@ -65,6 +65,8 @@ img {
 .next-match {
     margin: -50px;
 }
+
+/* applies to any section with a header (used to bejust for the heor image) */
 .hero-image{
     background-color:#1a9b00;
 
@@ -78,7 +80,7 @@ img {
     color:white;
 }
 
-
+/* applies to the actual hero section */
 .REAL-hero-image{
     background-image: url(images/other-images/hero-image.png);
     background-size: cover;
@@ -97,6 +99,7 @@ img {
     background-repeat:no-repeat;
 }
 
+/* hero section of the news tab */
 .news-hero-image {
     background-image: url(images/other-images/algeria-news.png);
     background-size: cover;
@@ -142,22 +145,30 @@ span h1 {
     transform: translateY(-18%);
 }
 
+/* makes the number 1 golden */
 .number1 {
     color: rgb(226, 184, 45)
 }
 
+
+/* makes the number 2 silver */
+.number2 {
+    color: rgb(179, 179, 179)
+}
+
+/* makes the number 3 bronze */
+.number3 {
+    color: rgb(156, 90, 15)
+}
+
+/* formatting for the copyright setcion at the bottom */
 .copyright {
     background-color: #0f5a00;
     color: white;
     font-size: 20px;
 }
-.number2 {
-    color: rgb(179, 179, 179)
-}
 
-.number3 {
-    color: rgb(156, 90, 15)
-}
+/* applies to the timer text */
 .time {
     text-align: center;
     margin-top: 15vh;
@@ -165,6 +176,7 @@ span h1 {
     color: rgb(255, 255, 255)
 }
 
+/* applies to the actual timer */
 .time h2 {
     font-size: 4rem;
     font-size: clamp(2rem, 8vw, 4rem);
@@ -172,7 +184,7 @@ span h1 {
 
 
 
-
+/* applies to the two column section that's about the team */
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
