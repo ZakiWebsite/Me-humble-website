@@ -65,6 +65,8 @@ img {
 .next-match {
     margin: -50px;
 }
+
+/* handles all heading */
 .hero-image{
     background-color:#1a9b00;
 
@@ -78,7 +80,7 @@ img {
     color:white;
 }
 
-
+/* handles the actual heor image */
 .REAL-hero-image{
     background-image: url(images/other-images/hero-image.png);
     background-size: cover;
@@ -97,6 +99,7 @@ img {
     background-repeat:no-repeat;
 }
 
+/* handles the hero image in the news section */
 .news-hero-image {
     background-image: url(images/other-images/algeria-news.png);
     background-size: cover;
@@ -104,20 +107,21 @@ img {
     width: 100%;
     height: 51vh;
 
-    display: flex;          /* Add this */
-    justify-content: center;/* Horizontal center */
-    align-items: center;    /* Vertical center */
+    display: flex;          
+    justify-content: center;
+    align-items: center;    
 
     color: #fff;
 }
 
 
-
+/* adds to the 'no upcoming matches' text */
 span h2 {
     color: rgb(179, 179, 179);
     font-style: italic;
 }
 
+/* applies to all h1 text */
 h1 {
     font-size: clamp(2.5rem, 6vw, 75px);
     font-weight: 500;
@@ -127,12 +131,13 @@ h1 {
     letter-spacing: 2px;
     
 }
-
+ /* applies to hero text in news section */
 span h1 {
     margin: 0px;
     font-size: clamp(4rem, 12vw, 150px);
 }
 
+/* applies to timer */
 .timebox {
     display: flex;
     flex-wrap: wrap;
@@ -142,15 +147,11 @@ span h1 {
     transform: translateY(-18%);
 }
 
+/* all this applies to the rankind numbers for top goalscorers */
 .number1 {
     color: rgb(226, 184, 45)
 }
 
-.copyright {
-    background-color: #0f5a00;
-    color: white;
-    font-size: 20px;
-}
 .number2 {
     color: rgb(179, 179, 179)
 }
@@ -158,6 +159,15 @@ span h1 {
 .number3 {
     color: rgb(156, 90, 15)
 }
+
+/* applies to silly lil copyright section */
+.copyright {
+    background-color: #0f5a00;
+    color: white;
+    font-size: 20px;
+}
+
+/* applies to timer */
 .time {
     text-align: center;
     margin-top: 15vh;
@@ -165,6 +175,7 @@ span h1 {
     color: rgb(255, 255, 255)
 }
 
+/* MORE stuff that pplies to timer */
 .time h2 {
     font-size: 4rem;
     font-size: clamp(2rem, 8vw, 4rem);
@@ -172,7 +183,7 @@ span h1 {
 
 
 
-
+/* applies to the two-column layout for the squad section */
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -184,6 +195,7 @@ span h1 {
     max-width:1400px;
 }
 
+/* more stuff to do with news section */
 .news {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -197,11 +209,14 @@ span h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+/* the formatting for the days since text */
 .title {
     color: white !important;
     -webkit-text-stroke: 2px green !important;
     margin-top: 10px;
 }
+/* handles the three-column layout for the top goalscorers section and news section */
 .three-column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -213,6 +228,7 @@ span h1 {
     max-width:1400px;
 }
 
+/* applie sto info tagged text */
 .info {
     font-size:clamp(16px,2vw,20px);
     line-height:1.6;
@@ -220,6 +236,7 @@ span h1 {
     margin-bottom: 20px;
 }
 
+/* All stuff to do with the navigation bar */
 .navigation-header {
     background-color: #0f5a00;
     background-size: cover;
@@ -231,24 +248,17 @@ span h1 {
 }
 
 .custom-btn {
-  /* Layout & Sizing */
   display: inline-block;
   padding: 12px 24px;
-  
-  /* Typography */
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
-  
-  /* Colors & Borders */
   background-color: #007bff;
   color: #ffffff;
   border: none;
   border-radius: 6px;
-  
-  /* Interactive Polish */
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -278,6 +288,7 @@ span h1 {
     float: left;
 }
 
+/* applies to the whole website pretty much */
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -287,6 +298,7 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 31.5L0 20L20 8.5L40 20L20 31.5zm0-2L36 20L20 10.5L4 20L20 29.5z' fill='%231a9b00' fill-opacity='0.08' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
+/* photos for top goalscorers */
 .player-photo{
 
     width:200px;
