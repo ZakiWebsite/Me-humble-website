@@ -66,7 +66,7 @@ img {
     margin: -50px;
 }
 
-/* handles all heading */
+/* applies to any section with a header (used to bejust for the heor image) */
 .hero-image{
     background-color:#1a9b00;
 
@@ -80,7 +80,7 @@ img {
     color:white;
 }
 
-/* handles the actual heor image */
+/* applies to the actual hero section */
 .REAL-hero-image{
     background-image: url(images/other-images/hero-image.png);
     background-size: cover;
@@ -99,7 +99,7 @@ img {
     background-repeat:no-repeat;
 }
 
-/* handles the hero image in the news section */
+/* hero section of the news tab */
 .news-hero-image {
     background-image: url(images/other-images/algeria-news.png);
     background-size: cover;
@@ -147,27 +147,30 @@ span h1 {
     transform: translateY(-18%);
 }
 
-/* all this applies to the rankind numbers for top goalscorers */
+/* makes the number 1 golden */
 .number1 {
     color: rgb(226, 184, 45)
 }
 
+
+/* makes the number 2 silver */
 .number2 {
     color: rgb(179, 179, 179)
 }
 
+/* makes the number 3 bronze */
 .number3 {
     color: rgb(156, 90, 15)
 }
 
-/* applies to silly lil copyright section */
+/* formatting for the copyright setcion at the bottom */
 .copyright {
     background-color: #0f5a00;
     color: white;
     font-size: 20px;
 }
 
-/* applies to timer */
+/* applies to the timer text */
 .time {
     text-align: center;
     margin-top: 15vh;
@@ -175,7 +178,7 @@ span h1 {
     color: rgb(255, 255, 255)
 }
 
-/* MORE stuff that pplies to timer */
+/* applies to the actual timer */
 .time h2 {
     font-size: 4rem;
     font-size: clamp(2rem, 8vw, 4rem);
@@ -183,7 +186,7 @@ span h1 {
 
 
 
-/* applies to the two-column layout for the squad section */
+/* applies to the two column section that's about the team */
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
